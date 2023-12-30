@@ -3,6 +3,7 @@ package software.ulpgc.kata4;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -23,6 +24,14 @@ public class SQLiteTrackLoader implements TrackLoader{
         }
         catch (SQLException e);
         return Collections.emptyList();
+    }
+
+    private List<Track> load(ResultSet resultSet)throws SQLException {
+        List<Track> result = new ArrayList<>();
+        while (resultSet.next())
+            result.add(trackFrom(resultSet));
+        return result;
+
     }
 
     private ResultSet queryAll() throws SQLException {

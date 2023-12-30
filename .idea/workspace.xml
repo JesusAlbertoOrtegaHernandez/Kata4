@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1873aaf0-7ab9-4c2b-8f0d-329d118963d1" name="Changes" comment="Creation of interface TrackLoader.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/SQLiteTrackLoader.java" afterDir="false" />
+    <list default="true" id="1873aaf0-7ab9-4c2b-8f0d-329d118963d1" name="Changes" comment="Creation of class SQLiteTrackLoader.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/SQLiteTrackLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/SQLiteTrackLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703968590048</updated>
-      <workItem from="1703968591056" duration="1095000" />
+      <workItem from="1703968591056" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of record Track.">
       <option name="closed" value="true" />
@@ -76,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703968874982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creation of class SQLiteTrackLoader.">
+      <option name="closed" value="true" />
+      <created>1703969715459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703969715459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +95,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creation of record Track." />
     <MESSAGE value="Creation of interface TrackLoader." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of interface TrackLoader." />
+    <MESSAGE value="Creation of class SQLiteTrackLoader." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of class SQLiteTrackLoader." />
   </component>
 </project>
