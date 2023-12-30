@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1873aaf0-7ab9-4c2b-8f0d-329d118963d1" name="Changes" comment="Creation of class SQLiteTrackLoader.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/Main.java" afterDir="false" />
+    <list default="true" id="1873aaf0-7ab9-4c2b-8f0d-329d118963d1" name="Changes" comment="Creation of class Main.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/SQLiteTrackLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/kata4/SQLiteTrackLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.ulpgc.kata4.Main" />
+      <module name="kata4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="software.ulpgc.kata4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703968590048</updated>
-      <workItem from="1703968591056" duration="2040000" />
+      <workItem from="1703968591056" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of record Track.">
       <option name="closed" value="true" />
@@ -85,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703969715459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creation of class Main.">
+      <option name="closed" value="true" />
+      <created>1703970804336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703970804336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +124,7 @@
     <MESSAGE value="Creation of record Track." />
     <MESSAGE value="Creation of interface TrackLoader." />
     <MESSAGE value="Creation of class SQLiteTrackLoader." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of class SQLiteTrackLoader." />
+    <MESSAGE value="Creation of class Main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of class Main." />
   </component>
 </project>
